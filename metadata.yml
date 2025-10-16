@@ -2,32 +2,34 @@ Identifier: eos4ywv
 Slug: macaw
 Status: In progress
 Title: MACAW (Molecular AutoenCoding Auto-Workaround)
-Description: MACAW (Molecular AutoenCoding Auto-Workaround) is a cheminformatic tool
-  for Python that embeds molecules in a low-dimensional, continuous numerical space.
-  It also enables the generation of new molecules on specification
+Description: MACAW (Molecular AutoenCoding Auto-Workaround) is a cheminformatic 
+  tool for Python that embeds molecules in a low-dimensional, continuous 
+  numerical space. It also enables the generation of new molecules on 
+  specification
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: External
 Task: Representation
-Subtask:  Featurization
+Subtask: Featurization
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Value
+  - Value
 Output Dimension: 100
 Output Consistency: Fixed
-Interpretation: '100 features based on pretrained MACAW.'
+Interpretation: 100 features based on pretrained MACAW.
 Tag:
-- Embedding
-- Descriptor
+  - Embedding
+  - Descriptor
 Biomedical Area:
-- Any
+  - Any
 Target Organism:
-- Any
+  - Any
 Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://pubs.acs.org/doi/10.1021/acs.jcim.2c00229
 Source Code: https://github.com/LBLQMM/MACAW/
 License: MIT
+Incorporation Date: '2025-10-13'
