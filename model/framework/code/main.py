@@ -6,12 +6,16 @@ import numpy as np
 from joblib import load
 from macaw import MACAW
 
+root = os.path.abspath(os.path.dirname(__file__))
+sys.path.append(root)
+
+# current file directory
+checkpoints_dir = os.path.join(root, "..", "..", "checkpoints")
+
 # parse arguments
-print(os.getcwd())
 input_file = sys.argv[1]
 output_file = sys.argv[2]
-checkpoints_path='../checkpoints/macaw_chembl_trained.joblib'
-
+checkpoints_path=os.path.join(checkpoints_dir,'macaw_chembl_trained.joblib')
 
 # --------------------------------
 REQ_COMPONENTS = 100
