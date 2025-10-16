@@ -1,8 +1,10 @@
 # Ersilia Model Template
 
-This document contains the instructions to incorporate a model. Please follow along to bring your model into the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia). After successful incorporation of the model, this README file will be **automatically updated** to reflect model specific details.
+MACAW (Molecular AutoenCoding Auto-Workaround) is a cheminformatic tool for Python that embeds molecules in a low-dimensional, continuous numerical space. It also enables the generation of new molecules on specification.
 
-Further information about model incorporation can be found in our [Documentation](https://ersilia.gitbook.io/ersilia-book/ersilia-model-hub/model-contribution/).
+MACAW embeddings are molecular features that can be used as inputs in mathematical and machine-learning models. MACAW embeddings can be used as an alternative for conventional molecular descriptors. The embeddings are fast and easy to compute, variable selection is not needed, and they may enable more accuracte predictive models than conventional molecular descriptors.
+
+MACAW also provides original algorithms to generate molecular libraries and to evolve molecules in silico that meet a desired specification (inverse molecular design). The design specification can be any property or combination of properties that can be predicted for the molecule, such as its octane number or its binding affinity to a protein.
 
 ## Template Structure
 

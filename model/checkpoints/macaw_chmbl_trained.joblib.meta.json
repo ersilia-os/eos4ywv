@@ -1,0 +1,6 @@
+{
+  "n_components": 100,
+  "n_landmarks": 500,
+  "random_state": 42,
+  "landmarks_file": "diverse_chmbl_set.smi"
+}
