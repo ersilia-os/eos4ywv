@@ -2,3 +2,4 @@ python: "3.8"
 commands:
     - ["pip", "rdkit-pypi", "2022.3.1b1"]
     - ["pip", "macaw_py", "1.0.1"]
+    - ["pip", "ersilia-pack-utils", "0.1.2"]

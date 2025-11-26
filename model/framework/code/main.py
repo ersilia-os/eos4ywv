@@ -5,6 +5,7 @@ import sys
 import numpy as np
 from joblib import load
 from macaw import MACAW
+from ersilia_pack_utils.core import write_out, read_smiles
 
 root = os.path.abspath(os.path.dirname(__file__))
 sys.path.append(root)
@@ -33,26 +34,15 @@ def my_model(smiles_list):
     emb = mcw.transform(smiles_list)  # shape: (n_samples, n_components)
     return emb
 
-# read SMILES from .csv file, assuming one column with header
-with open(input_file, "r", newline="") as f:
-    reader = csv.reader(f)
-    next(reader, None)  # skip header if present
-    smiles_list = [r[0] for r in reader if r]
+cols, smiles_list= read_smiles(input_file)
 
 # run model
 emb = my_model(smiles_list)
 
-# write output as one column per component
-with open(output_file, "w", newline="") as f:
-    writer = csv.writer(f)
-    n_components = emb.shape[1] if emb.size else 0
-    header = [f"dim_{i:02d}" for i in range(n_components)]
-    writer.writerow(header)
 
-    for row in emb:
-        formatted = [
-            "nan" if (isinstance(x, float) and np.isnan(x)) else f"{float(x):.6g}"
-            for x in row
-        ]
-        writer.writerow(formatted)
+n_components = emb.shape[1] if emb.size else 0
+headers= [f"dim_{i:02d}" for i in range(n_components)]
+
+#write output
+write_out(emb, headers, output_file, dtype='float32')
 
