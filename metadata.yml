@@ -33,7 +33,7 @@ Publication: https://pubs.acs.org/doi/10.1021/acs.jcim.2c00229
 Source Code: https://github.com/LBLQMM/MACAW/
 License: MIT
 Incorporation Date: '2025-10-13'
-Last Packaging Date: '2025-10-16'
+Last Packaging Date: '2025-11-26'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ywv.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4ywv
@@ -42,9 +42,9 @@ Docker Architecture:
   - ARM64
 Model Size: 4.0
 Environment Size: 884.0
-Image Size: 873.78
-Computational Performance 1: 39.39
-Computational Performance 2: 29.06
-Computational Performance 3: 29.2
-Computational Performance 4: 79.82
-Computational Performance 5: 311.81
+Image Size: 873.87
+Computational Performance 1: 39.83
+Computational Performance 2: 29.41
+Computational Performance 3: 29.43
+Computational Performance 4: 80.29
+Computational Performance 5: 314.1
