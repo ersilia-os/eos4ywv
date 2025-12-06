@@ -44,5 +44,5 @@ n_components = emb.shape[1] if emb.size else 0
 headers= [f"dim_{i:02d}" for i in range(n_components)]
 
 #write output
-write_out(emb, headers, output_file, dtype='float32')
+write_out(emb, headers, output_file, np.float32)
 
