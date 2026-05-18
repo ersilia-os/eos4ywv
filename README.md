@@ -59,7 +59,7 @@ _10 of 100 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/LBLQMM/MACAW/](https://github.com/LBLQMM/MACAW/)
-- **Publication**: [https://pubs.acs.org/doi/10.1021/acs.jcim.2c00229](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00229)
+- **Publication**: [https://doi.org/10.1021/acs.jcim.2c00229](https://doi.org/10.1021/acs.jcim.2c00229)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [Marina18](https://github.com/Marina18)
