@@ -1,6 +1,6 @@
 # MACAW (Molecular AutoenCoding Auto-Workaround)
 
-MACAW (Molecular AutoenCoding Auto-Workaround) is a cheminformatic tool for Python that embeds molecules in a low-dimensional, continuous numerical space. It also enables the generation of new molecules on specification
+MACAW embeds molecules into 100 continuous coordinates using a deliberately lightweight recipe, projecting structures against a set of reference compounds rather than training a deep network. Blay and colleagues built it so that embeddings can be produced on a laptop and, being smooth and low-dimensional, inverted for design: a point in the space can be mapped back towards real molecules. The number of dimensions is configurable, and the value chosen here is one setting rather than an intrinsic property.
 
 This model was incorporated on 2025-10-13.Last packaged on 2025-12-24.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-10-13.Last packaged on 2025-12-24.
 ### Output
 - **Output Dimension:** `100`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** 100 features based on pretrained MACAW.
+- **Interpretation:** 100 continuous embedding coordinates describing the molecule in a reference chemical space.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -61,11 +61,11 @@ _10 of 100 columns are shown_
 - **Source Code**: [https://github.com/LBLQMM/MACAW/](https://github.com/LBLQMM/MACAW/)
 - **Publication**: [https://doi.org/10.1021/acs.jcim.2c00229](https://doi.org/10.1021/acs.jcim.2c00229)
 - **Publication Type:** `Peer reviewed`
-- **Publication Year:** `2025`
+- **Publication Year:** `2022`
 - **Ersilia Contributor:** [Marina18](https://github.com/Marina18)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [MIT](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [Non-commercial](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
