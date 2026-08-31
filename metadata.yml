@@ -34,7 +34,7 @@ Source Code: https://github.com/LBLQMM/MACAW/
 License: Non-commercial
 Contributor: Marina18
 Incorporation Date: '2025-10-13'
-Last Packaging Date: '2025-12-24'
+Last Packaging Date: '2026-08-31'
 Release: v1.1.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ywv.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4ywv
@@ -43,9 +43,9 @@ Docker Architecture:
   - ARM64
 Model Size: 4.0
 Environment Size: 890.0
-Image Size: 878.04
-Computational Performance 1: 37.54
-Computational Performance 2: 27.27
-Computational Performance 3: 27.35
-Computational Performance 4: 71.26
-Computational Performance 5: 263.06
+Image Size: 891.14
+Computational Performance 1: 42.15
+Computational Performance 2: 31.5
+Computational Performance 3: 31.74
+Computational Performance 4: 123.54
+Computational Performance 5: 544.84
