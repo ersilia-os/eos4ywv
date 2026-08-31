@@ -41,7 +41,7 @@ emb = my_model(smiles_list)
 
 
 n_components = emb.shape[1] if emb.size else 0
-headers= [f"dim_{i:02d}" for i in range(n_components)]
+headers= [f"feat_{i:02d}" for i in range(n_components)]
 
 #write output
 write_out(emb, headers, output_file, np.float32)
