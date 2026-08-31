@@ -28,16 +28,16 @@ This model was incorporated on 2025-10-13.Last packaged on 2025-12-24.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_00 | float |  | MACAW dimension index 0 |
-| dim_01 | float |  | MACAW dimension index 1 |
-| dim_02 | float |  | MACAW dimension index 2 |
-| dim_03 | float |  | MACAW dimension index 3 |
-| dim_04 | float |  | MACAW dimension index 4 |
-| dim_05 | float |  | MACAW dimension index 5 |
-| dim_06 | float |  | MACAW dimension index 6 |
-| dim_07 | float |  | MACAW dimension index 7 |
-| dim_08 | float |  | MACAW dimension index 8 |
-| dim_09 | float |  | MACAW dimension index 9 |
+| feat_00 | float |  | MACAW dimension index 0 |
+| feat_01 | float |  | MACAW dimension index 1 |
+| feat_02 | float |  | MACAW dimension index 2 |
+| feat_03 | float |  | MACAW dimension index 3 |
+| feat_04 | float |  | MACAW dimension index 4 |
+| feat_05 | float |  | MACAW dimension index 5 |
+| feat_06 | float |  | MACAW dimension index 6 |
+| feat_07 | float |  | MACAW dimension index 7 |
+| feat_08 | float |  | MACAW dimension index 8 |
+| feat_09 | float |  | MACAW dimension index 9 |
 
 _10 of 100 columns are shown_
 ### Source and Deployment
