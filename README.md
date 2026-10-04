@@ -1,6 +1,6 @@
 # MACAW (Molecular AutoenCoding Auto-Workaround)
 
-MACAW (Molecular AutoenCoding Auto-Workaround) is a cheminformatic tool for Python that embeds molecules in a low-dimensional, continuous numerical space. It also enables the generation of new molecules on specification
+MACAW embeds molecules into 100 continuous coordinates using a deliberately lightweight recipe, projecting structures against a set of reference compounds rather than training a deep network. Blay and colleagues built it so that embeddings can be produced on a laptop and, being smooth and low-dimensional, inverted for design: a point in the space can be mapped back towards real molecules. The number of dimensions is configurable, and the value chosen here is one setting rather than an intrinsic property.
 
 This model was incorporated on 2025-10-13.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-10-13.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `100`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** 100 features based on pretrained MACAW.
+- **Interpretation:** 100 continuous embedding coordinates describing the molecule in a reference chemical space.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
