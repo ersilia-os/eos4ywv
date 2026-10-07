@@ -2,13 +2,13 @@ Identifier: eos4ywv
 Slug: macaw
 Status: Ready
 Title: MACAW (Molecular AutoenCoding Auto-Workaround)
-Description: 'MACAW embeds molecules into 100 continuous coordinates using a deliberately
-  lightweight recipe, projecting structures against a set of reference compounds rather
-  than training a deep network. Blay and colleagues built it so that embeddings can
-  be produced on a laptop and, being smooth and low-dimensional, inverted for design:
-  a point in the space can be mapped back towards real molecules. The number of dimensions
-  is configurable, and the value chosen here is one setting rather than an intrinsic
-  property.'
+Description: Embeds molecules into 100 continuous coordinates by measuring fingerprint
+  distances to a small set of landmark compounds and projecting those distances into
+  a low-dimensional space. Blay and colleagues designed this landmark scaling recipe
+  to be cheap and well suited to the small datasets common in biosciences, and because
+  the space is smooth it can be inverted for design, mapping a point back towards
+  real molecules. The embedder bundled here was fitted on ChEMBL, and the upstream
+  licence covers non-commercial academic use only.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +22,8 @@ Output:
   - Value
 Output Dimension: 100
 Output Consistency: Fixed
-Interpretation: 100 continuous embedding coordinates describing the molecule in a
-  reference chemical space.
+Interpretation: 100 continuous coordinates positioning the molecule against a fixed
+  set of ChEMBL landmark compounds.
 Tag:
   - Embedding
   - Descriptor
