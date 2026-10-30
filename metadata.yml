@@ -2,13 +2,14 @@ Identifier: eos4ywv
 Slug: macaw
 Status: Ready
 Title: MACAW (Molecular AutoenCoding Auto-Workaround)
-Description: Embeds molecules into 100 continuous coordinates by measuring fingerprint
-  distances to a small set of landmark compounds and projecting those distances into
-  a low-dimensional space. Blay and colleagues designed this landmark scaling recipe
-  to be cheap and well suited to the small datasets common in biosciences, and because
-  the space is smooth it can be inverted for design, mapping a point back towards
-  real molecules. The embedder bundled here was fitted on ChEMBL, and the upstream
-  licence covers non-commercial academic use only.
+Description: Embeds molecules into 100 continuous coordinates by measuring 
+  fingerprint distances to a small set of landmark compounds and projecting 
+  those distances into a low-dimensional space. Blay and colleagues designed 
+  this landmark scaling recipe to be cheap and well suited to the small datasets
+  common in biosciences, and because the space is smooth it can be inverted for 
+  design, mapping a point back towards real molecules. The embedder bundled here
+  was fitted on ChEMBL, and the upstream licence covers non-commercial academic 
+  use only.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 100
 Output Consistency: Fixed
-Interpretation: 100 continuous coordinates positioning the molecule against a fixed
-  set of ChEMBL landmark compounds.
+Interpretation: 100 continuous coordinates positioning the molecule against a 
+  fixed set of ChEMBL landmark compounds.
 Tag:
   - Embedding
   - Descriptor
@@ -39,7 +40,7 @@ License: Non-commercial
 Contributor: Marina18
 Incorporation Date: '2025-10-13'
 Last Packaging Date: '2026-08-31'
-Release: v2.0.0
+Release: v2.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ywv.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4ywv
 Docker Architecture:
