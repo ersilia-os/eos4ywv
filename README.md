@@ -2,7 +2,8 @@
 
 Embeds molecules into 100 continuous coordinates by measuring fingerprint distances to a small set of landmark compounds and projecting those distances into a low-dimensional space. Blay and colleagues designed this landmark scaling recipe to be cheap and well suited to the small datasets common in biosciences, and because the space is smooth it can be inverted for design, mapping a point back towards real molecules. The embedder bundled here was fitted on ChEMBL, and the upstream licence covers non-commercial academic use only.
 
-This model was incorporated on 2025-10-13.Last packaged on 2026-08-31.
+This model was incorporated on 2025-10-13.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
